@@ -1,0 +1,15 @@
+{
+"tgs":    [
+    { "disp": "Unlink",  "tg": "*10" },
+    { "disp": "Node 42565 - Parrot",      "tg": "*342565" },
+    { "disp": "Node 2100  - Analog Hub",  "tg": "*32100" },
+    { "disp": "Node 2600  - Digital Hub", "tg": "*32600" },
+    { "disp": "Node 2154  - N4IRS",       "tg": "*32154" },
+    { "disp": "Node 2135  - WAN",         "tg": "*32135" },
+    { "disp": "Node 2560  - WIN",         "tg": "*32560" },
+    { "disp": "Node 51288  - HUBNet",     "tg": "*351288" }
+    ],
+    "macros":    [
+      { "disp": "Node List", "tg": "*933#*70#*934" }
+    ]
+}

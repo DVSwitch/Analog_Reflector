@@ -1,0 +1,38 @@
+{
+"tgs":    [
+    { "disp": "Disconnect", "tg": "4000" },
+    { "disp": "Parrot", "tg": "9990#" },
+    { "disp": "North America", "tg": "3100" },
+    { "disp": "World Wide", "tg": "91" },
+    { "disp": "Florida", "tg": "3112" },
+    { "disp": "Georgia", "tg": "3113" },
+    { "disp": "California", "tg": "3106" },
+    { "disp": "DVSwitch", "tg": "3166" },
+    { "disp": "Call Area 4", "tg": "31094" },
+    { "disp": "BYRG", "tg": "31201" },
+    { "disp": "SNARS", "tg": "31268" },
+    { "disp": "Quadnet", "tg": "31012" },
+    { "disp": "Treasure Coast", "tg": "31123" },
+    { "disp": "N4IRS", "tg": "3112138#" },
+    { "disp": "America Link", "tg": "31656" },
+    { "disp": "Alabama Link", "tg": "31010" },
+    { "disp": "Colorado HD", "tg": "31088" },
+    { "disp": "The Guild", "tg": "31674" },
+    { "disp": "RoboLady", "tg": "3120610" },
+    { "disp": "------------------", "tg": "" },
+    { "disp": "TGIF", "tg": "passw0rd@tgif.network:62031!0" },
+    { "disp": "Brandmeister", "tg": "passw0rd@3101.repeater.net:62031!4000" },
+    { "disp": "QRM Network", "tg": "passw0rd@qrm.kc3ol.net:62031!4000" },
+    { "disp": "XRF054", "tg": "passw0rd@xrf054.metro-uhf.org:62030:XLX:4005!9" },
+    { "disp": "XLX740", "tg": "passw0rd@xlx740.kc1awv.net:62030:XLX:4005!9" },
+    { "disp": "DMR_PLUS", "tg": "passw0rd@44.48.48.20:55555:StartRef=4649;RelinkTime=60;UserLink=1!9" },
+    { "disp": "DMR_PLUS_3148", "tg": "passw0rd@44.48.48.20:55555:StartRef=3148;RelinkTime=60;UserLink=1!9" },
+    { "disp": "CrazyHorse?", "tg": "passw0rd@crazyhorse.network:62031" },
+    { "disp": "FreeDMR", "tg": "passw0rd@87.117.229.173:62031"}
+    ],
+    "macros": [
+      { "disp": "Brandmeister", "tg": "passw0rd@3101.repeater.net:62031!4000" },
+      { "disp": "QRM Network", "tg": "passw0rd@qrm.kc3ol.net:62031!4000" },
+      { "disp": "FreeDMR", "tg": "passw0rd@87.117.229.173:62031"}
+    ]
+  }

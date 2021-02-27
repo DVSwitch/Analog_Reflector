@@ -1,0 +1,9 @@
+{
+  "callsign": "N0CALL",
+  "subscriberID": "1234567",
+  "repeaterID": "123456",
+  "sha512": "3072b02ac2057c356b0d42ffd72fbb063a48154a5e3d69c3193109ba8a621312d796d6fc28e4ad5f72c58ce14e00a5a99f0015212832932922f040f079b1778c",
+  "salt": "3935b8685c",
+  "expires": 0,
+  "rights": "0"
+}

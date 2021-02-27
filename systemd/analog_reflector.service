@@ -1,0 +1,22 @@
+[Unit]
+Description=Analog Reflector Service
+# Description=Place this file in /lib/systemd/system
+# Description=N4IRS 10/31/2020 V 1.6.0
+
+After=netcheck.service
+Requires=netcheck.service
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=3
+StandardOutput=null
+WorkingDirectory=/opt/Analog_Reflector
+ExecStartPre = /bin/sh -c 'echo "Starting Analog Reflector: [`date +%%T.%%3N`]" >> /var/log/netcheck'
+ExecStart=/opt/Analog_Reflector/Analog_Reflector
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+

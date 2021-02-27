@@ -1,0 +1,9 @@
+{
+  "callsign": "N4IRR",
+  "subscriberID": "3113043",
+  "repeaterID": "311325",
+  "sha512": "ac63c2e93f15345ef7739583588307290baf23c46094b48a742d81e6755cbf11c6cd8c665a5f2961818661c422c0d68734eeba4f79376f1e53e62b47cad7a6d0",
+  "salt": "4f6af55390",
+  "expires": 30,
+  "rights": 11 
+}

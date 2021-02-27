@@ -1,0 +1,33 @@
+{
+  "nodeName":"DVSwitch",
+  "dmrID":"1234567",
+  "abAddress": "127.0.0.1",
+  "usrpTxPort": "8645",
+  "usrpRxPort": "8645",
+  "mobilePort": "12345",
+  "wsPort": "8090",
+  "keyDir": "./ssl/",
+  "siteroot": "./arRoot",
+  "logFileName": "/var/log/dvswitch/Analog_Reflector.log",
+  "logLevel": "2",
+  "disallowUnknownClients": false,
+  "brokerURL": "mqtt://localhost:1883",
+  "rightsMask": "4",
+  "autoMute": true,
+  "clientModes": ["DMR", "STFU", "DSTAR|D-Star", "NXDN", "P25", "YSF", "ASL|AllStar", "Intercom"],
+  "bridges": {
+    "asl": [
+      {"node" : "1999", "address" : "127.0.0.1", "rxPort" : "34001", "txPort" : "32001", "rights" : 3, "amiUserName" : "admin", "amiSecret" : "llcgi"}
+    ],
+    "ab" : [
+      {"name" : "DMR",    "address" : "127.0.0.1", "rxPort" : "51100", "txPort" : "51103", "rights" : 1},
+      {"name" : "D-Star", "address" : "127.0.0.1", "rxPort" : "52100", "txPort" : "52103", "rights" : 1},
+      {"name" : "NXDN",   "address" : "127.0.0.1", "rxPort" : "53100", "txPort" : "53103", "rights" : 1},
+      {"name" : "P25",    "address" : "127.0.0.1", "rxPort" : "54100", "txPort" : "54103", "rights" : 1},
+      {"name" : "YSF",    "address" : "127.0.0.1", "rxPort" : "55100", "txPort" : "55103", "rights" : 1}
+    ]
+  }
+}
+
+
+
