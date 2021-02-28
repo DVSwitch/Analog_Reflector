@@ -5,7 +5,7 @@
   "usrpTxPort": "8645",
   "usrpRxPort": "8645",
   "mobilePort": "12345",
-  "wsPort": "8090",
+  "wsPort": "443",
   "keyDir": "./ssl/",
   "siteroot": "./arRoot",
   "logFileName": "/var/log/dvswitch/Analog_Reflector.log",
