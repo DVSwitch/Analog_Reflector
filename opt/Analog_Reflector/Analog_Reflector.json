@@ -14,6 +14,7 @@
   "brokerURL": "mqtt://localhost:1883",
   "rightsMask": "4",
   "autoMute": true,
+  "clientDebugMode": false,
   "clientModes": ["DMR", "STFU", "DSTAR|D-Star", "NXDN", "P25", "YSF", "ASL|AllStar", "Intercom"],
   "bridges": {
     "asl": [
