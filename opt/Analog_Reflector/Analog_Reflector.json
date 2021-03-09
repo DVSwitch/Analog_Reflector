@@ -15,7 +15,7 @@
   "rightsMask": "4",
   "autoMute": true,
   "clientDebugMode": false,
-  "clientModes": ["DMR", "STFU", "DSTAR|D-Star", "NXDN", "P25", "YSF", "ASL|AllStar", "Intercom"],
+  "clientModes": ["Intercom", "DMR", "STFU", "DSTAR|D-Star", "NXDN", "P25", "YSF", "ASL|AllStar"],
   "bridges": {
     "asl": [
       {"node" : "1999", "address" : "127.0.0.1", "rxPort" : "34001", "txPort" : "32001", "rights" : 3, "amiUserName" : "admin", "amiSecret" : "llcgi"}
