@@ -8,8 +8,9 @@ Requires=netcheck.service
 
 [Service]
 Type=simple
-Restart=always
 RestartSec=3
+Restart=on-failure
+RestartPreventExitStatus=254
 StandardOutput=null
 WorkingDirectory=/opt/Analog_Reflector
 ExecStartPre = /bin/sh -c 'echo "Starting Analog Reflector: [`date +%%T.%%3N`]" >> /var/log/netcheck'
