@@ -26,7 +26,6 @@
     { "disp": "XLX740", "tg": "passw0rd@xlx740.kc1awv.net:62030:XLX:4005!9" },
     { "disp": "DMR_PLUS", "tg": "passw0rd@44.48.48.20:55555:StartRef=4649;RelinkTime=60;UserLink=1!9" },
     { "disp": "DMR_PLUS_3148", "tg": "passw0rd@44.48.48.20:55555:StartRef=3148;RelinkTime=60;UserLink=1!9" },
-    { "disp": "CrazyHorse?", "tg": "passw0rd@crazyhorse.network:62031" },
     { "disp": "FreeDMR", "tg": "passw0rd@87.117.229.173:62031"}
     ],
     "macros": [
