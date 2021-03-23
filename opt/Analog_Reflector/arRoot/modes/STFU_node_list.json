@@ -20,5 +20,10 @@
     { "disp": "The Guild", "tg": "31674" },
     { "disp": "RoboLady", "tg": "3120610" }
     ],
-"macros": []
+    "macros":    [
+    ],
+    "ui": {
+      "mode": {"public_id":"DMR ID", "public_id_value":"current_user.subscriberID", "station_id":"Callsign", "station_id_value":"current_user.callsign"},
+      "quick_access": {"slot_visible":false}
+    }
   }

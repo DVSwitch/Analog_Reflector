@@ -11,5 +11,10 @@
     ],
     "macros":    [
       { "disp": "Node List", "tg": "*933#*70#*934" }
-    ]
-}
+    ],
+    "ui": {
+      "mode": {"public_id":"Node", "public_id_value":"reflector.bridges.asl[0].node", "station_id":"Callsign", "station_id_value":"current_user.callsign"},
+      "quick_access": {"title":"Nodes", "slot_visible":false, "list_label":"Nodes", "adhoc_label":"Menu"},
+      "log":{"dest_heading":"Node"}
+    }
+  }
