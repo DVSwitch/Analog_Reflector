@@ -19,7 +19,7 @@
     { "disp": "Colorado HD", "tg": "31088" },
     { "disp": "The Guild", "tg": "31674" },
     { "disp": "RoboLady", "tg": "3120610" },
-    { "disp": "------------------", "tg": "" },
+    { "disp": "TGIF", "tg": "passw0rd@tgif.network:62031!0" },
     { "disp": "Brandmeister", "tg": "passw0rd@3101.repeater.net:62031!4000" },
     { "disp": "QRM Network", "tg": "passw0rd@qrm.kc3ol.net:62031!4000" },
     { "disp": "XRF054", "tg": "passw0rd@xrf054.metro-uhf.org:62030:XLX:4005!9" },
@@ -28,9 +28,12 @@
     { "disp": "DMR_PLUS_3148", "tg": "passw0rd@44.48.48.20:55555:StartRef=3148;RelinkTime=60;UserLink=1!9" },
     { "disp": "FreeDMR", "tg": "passw0rd@87.117.229.173:62031"}
     ],
-    "macros": [
+    "macros":    [
       { "disp": "Brandmeister", "tg": "passw0rd@3101.repeater.net:62031!4000" },
       { "disp": "QRM Network", "tg": "passw0rd@qrm.kc3ol.net:62031!4000" },
       { "disp": "FreeDMR", "tg": "passw0rd@87.117.229.173:62031"}
-    ]
+    ],
+    "ui": {
+      "mode": {"public_id":"DMR ID", "public_id_value":"current_user.subscriberID", "station_id":"Callsign", "station_id_value":"current_user.callsign"}
+    }
   }
