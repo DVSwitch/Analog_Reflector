@@ -10,7 +10,7 @@ Requires=netcheck.service
 Type=simple
 RestartSec=3
 Restart=on-failure
-RestartPreventExitStatus=254
+RestartPreventExitStatus=1 2 3 4 5
 StandardOutput=null
 WorkingDirectory=/opt/Analog_Reflector
 ExecStartPre = /bin/sh -c 'echo "Starting Analog Reflector: [`date +%%T.%%3N`]" >> /var/log/netcheck'
@@ -21,3 +21,10 @@ KillMode=process
 [Install]
 WantedBy=multi-user.target
 
+# const ERR_SUCCESS           = 0;
+# const ERR_PORT_IN_USE       = 1; OK
+# const ERR_BRIDGE_ERROR      = 2;
+# const ERR_SSL_ERROR         = 3; OK
+# const ERR_CONFIG_ERROR      = 4; OK
+# const ERR_RESOURCE_ERROR    = 5;
+# const ERR_BROKER_ERROR      = 6; Not fatal
