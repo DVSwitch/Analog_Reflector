@@ -32,5 +32,10 @@
     { "disp": "REM-ADER Spain Group", "tg": "10304" },
     { "disp": "China", "tg": "46000" },
     { "disp": "Russia NXDN Net", "tg": "25641" }
-    ]
+    ],
+    "ui": {
+      "mode": {"public_id":"Repeater", "public_id_value":"NXDNGateway", "station_id":"NXDN ID", "station_id_value":"current_user.subscriberID"},
+      "quick_access": {"title":"Reflectors", "slot_visible":false, "list_label":"REF", "adhoc_label":"Menu"},
+      "log":{"dest_heading":"Reflector"}
+    }
   }
