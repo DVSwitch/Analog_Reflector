@@ -2,7 +2,7 @@
 "tgs":    [
     { "disp": "Disconnect", "tg": "4000" },
     { "disp": "Parrot", "tg": "9990#" },
-    { "disp": "North America", "tg": "3100" },
+    { "disp": "North America", "tg": "93" },
     { "disp": "World Wide", "tg": "91" },
     { "disp": "Florida", "tg": "3112" },
     { "disp": "Georgia", "tg": "3113" },
