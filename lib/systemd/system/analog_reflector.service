@@ -1,0 +1,30 @@
+[Unit]
+Description=Analog Reflector Service
+# Description=Place this file in /lib/systemd/system
+# Description=N4IRS 07/01/2024
+
+After=netcheck.service
+Requires=netcheck.service
+
+[Service]
+Type=simple
+RestartSec=3
+Restart=on-failure
+RestartPreventExitStatus=1 2 3 4 5
+StandardOutput=null
+WorkingDirectory=/opt/Analog_Reflector
+ExecStartPre = /usr/bin/sh -c 'echo "Starting Analog Reflector: [`date +%%T.%%3N`]" >> /var/log/netcheck'
+ExecStart=/opt/Analog_Reflector/Analog_Reflector
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
+
+# const ERR_SUCCESS           = 0;
+# const ERR_PORT_IN_USE       = 1; OK
+# const ERR_BRIDGE_ERROR      = 2;
+# const ERR_SSL_ERROR         = 3; OK
+# const ERR_CONFIG_ERROR      = 4; OK
+# const ERR_RESOURCE_ERROR    = 5;
+# const ERR_BROKER_ERROR      = 6; Not fatal

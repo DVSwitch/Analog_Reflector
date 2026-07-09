@@ -1,0 +1,41 @@
+{
+"tgs":    [
+    { "disp": "Unlink", "tg": "9999" },
+    { "disp": "Parrot", "tg": "10" },
+    { "disp": "North America", "tg": "10200" },
+    { "disp": "World Wide", "tg": "65000" },
+    { "disp": "Florida", "tg": "1200" },
+    { "disp": "DVSwitch", "tg": "3166" },
+    { "disp": "Pacific", "tg": "10400" },
+    { "disp": "Alabama Link", "tg": "31010" },
+    { "disp": "Carolina Digital Group", "tg": "31374" },
+    { "disp": "KenWood bridge NXCore", "tg": "9000" },
+    { "disp": "CT NXCore", "tg": "25000" },
+    { "disp": "NXDN 10302 Multimode BM", "tg": "10302" },
+    { "disp": "America-Ragchew", "tg": "28299" },
+    { "disp": "NorCal-Bridge / Multimode-NXDN", "tg": "30639" },
+    { "disp": "Colorado HD", "tg": "31088" },
+    { "disp": "Illinois", "tg": "31171" },
+    { "disp": "Southern Indiana", "tg": "31188" },
+    { "disp": "Rhode Island Digital Link", "tg": "31444" },
+    { "disp": "Pi-Star NXDN Reflector", "tg": "31672" },
+    { "disp": "DX-LINK SYSTEM", "tg": "31777" },
+    { "disp": "DMR TG50525 bridge", "tg": "50525" },
+    { "disp": "VKCore 505", "tg": "505" },
+    { "disp": "New Zealand", "tg": "53099" },
+    { "disp": "New Zealand, 530", "tg": "530" },
+    { "disp": "French", "tg": "65208" },
+    { "disp": "Spanish", "tg": "10301" },
+    { "disp": "Italian speaking", "tg": "10303" },
+    { "disp": "Europe, German speaking", "tg": "20000" },
+    { "disp": "Portuguese speaking test", "tg": "26810" },
+    { "disp": "REM-ADER Spain Group", "tg": "10304" },
+    { "disp": "China", "tg": "46000" },
+    { "disp": "Russia NXDN Net", "tg": "25641" }
+    ],
+    "ui": {
+      "mode": {"public_id":"Repeater", "public_id_value":"NXDNGateway", "station_id":"NXDN ID", "station_id_value":"current_user.subscriberID"},
+      "quick_access": {"title":"Reflectors", "slot_visible":false, "list_label":"REF", "adhoc_label":"Menu"},
+      "log":{"dest_heading":"Reflector"}
+    }
+  }

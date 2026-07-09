@@ -1,0 +1,20 @@
+{
+"tgs":    [
+    { "disp": "Disconnect", "tg": "disconnect" },
+    { "disp": "Parrot", "tg": "register.ysfreflector.de:42020" },
+    { "disp": "America Link", "tg": "americalink.hamfm.com:42000" },
+    { "disp": "America Link FCS", "tg": "900190" },
+    { "disp": "America-RC", "tg": "arcysf.duckdns.org:42001" },
+    { "disp": "Alabama-Link", "tg": "96.47.95.121:42000" },
+    { "disp": "US Texas-Nexus", "tg": "ysf.texas-nexus.dyndns.org:42000" },
+    { "disp": "Ohio-Link", "tg": "ysf.glorb.com:42000" },
+    { "disp": "US Triangle NC", "tg": "ysf.trianglenc.net:42000" },
+    { "disp": "EA C4FM", "tg": "212.237.3.141:42000" },
+    { "disp": "GB CQ-UK", "tg": "81.150.10.62:42200" }
+    ],
+    "ui": {
+      "mode": {"public_id":"Repeater", "public_id_value":"YSFGateway", "station_id":"Callsign", "station_id_value":"current_user.callsign"},
+      "quick_access": {"title":"Reflectors", "slot_visible":false, "list_label":"ROOM", "adhoc_label":"Menu"},
+      "log":{"dest_heading":"Reflector"}
+    }
+  }

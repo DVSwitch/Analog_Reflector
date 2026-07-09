@@ -1,0 +1,9 @@
+{
+  "callsign": "N4IRS",
+  "subscriberID": "3112138",
+  "repeaterID": "311222",
+  "sha512": "9d5e20fa610a938f94e905c9bf396c798c68198c90141df9ed852cca3ef00a764f6ca629034b9533b2edbaa5ef5cf6e2ba0aca112d8da669b4358e64c505d246",
+  "salt": "737e8ee123",
+  "expires": 30,
+  "rights": "11"
+}

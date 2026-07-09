@@ -1,0 +1,8 @@
+{
+  "tgs": [],
+  "ui": {
+    "mode": {"public_id": "Reflector","public_id_value": "reflector.nodeName","station_id": "Name","station_id_value": "Mike"},
+    "quick_access": {"title": "Reflectors","slot_visible": false,"list_label": "REF","adhoc_label": "Menu"},
+    "log": {"dest_heading": "User"}
+  }
+}

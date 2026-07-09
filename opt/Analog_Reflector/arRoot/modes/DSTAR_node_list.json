@@ -1,0 +1,26 @@
+{
+"tgs":    [
+    { "disp": "Unlink",  "tg": "       U" },
+    { "disp": "Echo",    "tg": "REF001EL" },
+    { "disp": "REF001C", "tg": "REF001CL" },
+    { "disp": "REF004C", "tg": "REF004CL" },
+    { "disp": "REF012A", "tg": "REF012AL" },
+    { "disp": "XRF012A", "tg": "XRF012AL" },
+    { "disp": "REF014A", "tg": "REF014AL" },
+    { "disp": "REF030B", "tg": "REF030BL" },
+    { "disp": "REF030C", "tg": "REF030CL" },
+    { "disp": "REF038C", "tg": "REF038CL" },
+    { "disp": "REF050C", "tg": "REF050CL" },
+    { "disp": "REF058B", "tg": "REF058BL" },
+    { "disp": "REF078B", "tg": "REF078BL" },
+    { "disp": "REF078C", "tg": "REF078CL" },
+    { "disp": "DCS006F", "tg": "DCS006FL" },
+    { "disp": "DCS059A", "tg": "DCS059AL" }
+    ],
+    "ui": {
+      "mode": {"public_id":"Repeater", "public_id_value":"N4IRR-B", "station_id":"CCS7 ID", "station_id_value":"current_user.subscriberID"},
+      "quick_access": {"title":"Reflectors", "slot_visible":false, "list_label":"REF", "adhoc_label":"Menu"},
+      "log":{"dest_heading":"Reflector"}
+    }
+
+  }

@@ -1,0 +1,29 @@
+{
+"tgs":    [
+    { "disp": "Disconnect", "tg": "4000" },
+    { "disp": "Parrot", "tg": "9990#" },
+    { "disp": "North America", "tg": "3100" },
+    { "disp": "World Wide", "tg": "91" },
+    { "disp": "Florida", "tg": "3112" },
+    { "disp": "Georgia", "tg": "3113" },
+    { "disp": "California", "tg": "3106" },
+    { "disp": "DVSwitch", "tg": "3166" },
+    { "disp": "Call Area 4", "tg": "31094" },
+    { "disp": "BYRG", "tg": "31201" },
+    { "disp": "SNARS", "tg": "31268" },
+    { "disp": "Quadnet", "tg": "31012" },
+    { "disp": "Treasure Coast", "tg": "31123" },
+    { "disp": "N4IRS", "tg": "3112138#" },
+    { "disp": "America Link", "tg": "31656" },
+    { "disp": "Alabama Link", "tg": "31010" },
+    { "disp": "Colorado HD", "tg": "31088" },
+    { "disp": "The Guild", "tg": "31674" },
+    { "disp": "RoboLady", "tg": "3120610" }
+    ],
+    "macros":    [
+    ],
+    "ui": {
+      "mode": {"public_id":"DMR ID", "public_id_value":"current_user.subscriberID", "station_id":"Callsign", "station_id_value":"current_user.callsign"},
+      "quick_access": {"slot_visible":false}
+    }
+  }
